@@ -560,7 +560,6 @@ class ETA(Timer):
             fmt = self.format_NA
         else:
             fmt = self.format_zero
-:
         return Timer.__call__(self, progress, data, format=fmt)
 
 
